@@ -1,11 +1,46 @@
 {
-    "posts": [
-        { "id": 1, "title": "json-server", "author": "typicode" },
-        { "id": 2, "title": "something about server", "author": "SebastianKein" },
-        { "id": 3, "title": "something about java", "author": "AKP" }
-    ],
-    "comments": [
-        { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode",
+      "price": 5000
+    },
+    {
+      "id": 2,
+      "title": "something about server",
+      "author": "SebastianKein",
+      "price": 7000
+    },
+    {
+      "id": 3,
+      "title": "something about java",
+      "author": "AKP",
+      "price": 8000
+    },
+    {
+      "title": "Test",
+      "price": "9000",
+      "author": "SS",
+      "id": "4"
+    },
+    {
+      "title": "Test 2",
+      "price": "4000",
+      "author": "author 2",
+      "id": 5
+    },
+    {
+      "title": "new title",
+      "price": "9000",
+      "author": "ian war",
+      "id": 6
+    },
+    {
+      "title": "java book",
+      "price": "4000",
+      "author": "sebastian",
+      "id": 7
+    }
+  ]
 }
